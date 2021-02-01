@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn index",
-    "devStart": "nodemon index"
+    "startDev": "nodemon index"
   },
   "dependencies": {
     "dotenv": "^8.2.0",

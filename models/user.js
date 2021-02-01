@@ -9,6 +9,10 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: 'userId',
         as: 'posts',
         onDelete: 'CASCADE'
+      });
+      User.hasOne(models.Role, {
+        foreignKey: 'userId',
+        as: 'role'
       })
     }
   };

@@ -1,0 +1,16 @@
+//get all users
+GET http://localhost:5000/api/v01/users
+###
+
+//get specific user with posts
+GET http://localhost:5000/api/v01/user/1
+###
+
+//add new user
+POST http://localhost:5000/api/v01/user
+Content-Type: application/json
+
+{
+  "name": "Anakin Skywalker",
+  "email": "anakin@plagueis.ds"
+}
